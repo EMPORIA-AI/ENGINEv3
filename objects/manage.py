@@ -226,7 +226,6 @@ class singleton_Manage:
         args['things'], result = await self.manage_OBJECTS(*param)
         for k, v in result.items(): args["result"][k] = v
 
-
         param = [data.action, persist.values, 'value', data.values]
         args['values'], result = await self.manage_OBJECTS(*param)
         for k, v in result.items(): args["result"][k] = v
